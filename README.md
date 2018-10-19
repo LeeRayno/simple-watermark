@@ -16,6 +16,8 @@ npm i simple-watermark -S
 import Watermark from 'simple-watermark'
 // or commonjs
 const Watermark = require('simple-watermark')
+// or cdn
+<script src="https://unpkg.com/simple-watermark@1.0.0/dist/simple-watermark.js"></script>
 
 const watermark = new Watermark({
   // options
@@ -43,3 +45,9 @@ const DEFAULT_OPTIONS = {
   rotate: 30
 }
 ```
+
+## Demo
+
+[here](https://leerayno.github.io/simple-watermark/index.html)
+
+![watermark](watermark.png)
